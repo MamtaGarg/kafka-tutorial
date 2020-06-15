@@ -25,13 +25,13 @@ public class TwitterProducer {
 
     private static final Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
 
-    private static final String CONSUMER_KEY = "H6EhgJ5NIk65fVTwvsg4f8gu2";
+    private static final String CONSUMER_KEY = "consumer_key";
 
-    private static final String CONSUMER_SECRET = "oBxNEwlgb10lQUfNan2HkG17XTQI1YjCUOQSJiH7xmqcNnDQzm";
+    private static final String CONSUMER_SECRET = "consumer_secret";
 
-    private static final String TOKEN = "774471467593506816-aI4kZz17TwUzz5P7hlUWw1wY6cqnWc8";
+    private static final String TOKEN = "token";
 
-    private static final String SECRET = "NZ6u4qaZ5FeVzWe6YEUgJOZJRPigk4gyCONlZHTWuS2j2";
+    private static final String SECRET = "secret";
 
     List<String> terms = Lists.newArrayList("Sushant", "usa", "politics", "modi", "trump", "sport");
 
