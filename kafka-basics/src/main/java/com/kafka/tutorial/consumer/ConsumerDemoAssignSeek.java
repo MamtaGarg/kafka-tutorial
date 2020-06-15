@@ -39,7 +39,7 @@ public class ConsumerDemoAssignSeek {
         consumer.assign(Arrays.asList(partitionToReadFrom));
 
         //seek
-        //consumer.seek(partitionToReadFrom, offsetToReadFrom);
+        consumer.seek(partitionToReadFrom, offsetToReadFrom);
 
         int numberOfMessagesToRead = 5;
         boolean keepOnReading = true;
